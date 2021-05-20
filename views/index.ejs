@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ctx</title>
+</head>
+
+<body>
+  <table width="100%" border="1">
+    <thead>
+      <tr>
+        <th colspan="2" align="left">
+          <div id="id"></div>
+        </th>
+        <th rowspan="2">
+          <div id="peers"></div>
+        </th>
+      </tr>
+      <tr>
+        <th colspan="2">
+
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td colspan="3">
+          <input  type="text"   id="chat" placeholder="Enter a message..." width="300" />
+          <button type="button" id="send">Send</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+<script src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
